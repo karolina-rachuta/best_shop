@@ -212,41 +212,28 @@ html, body {
 .triple-box__row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     max-width: 70.25rem;
     background: rgba(255, 255, 255, 1) 0 0 no-repeat padding-box;
     border: 0.0625rem solid rgba(232, 233, 237, 1);
     border-radius: 0.3125rem;
-}
-.box__row-smaller {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding-left: 2.1875rem
-
-}
-.box__row-smaller.gap {
-    gap: 3.8125rem;
+    padding-left: 2.1875rem;
 }
 
 .box__row--img {
     max-width: 27.6875rem;
-
+    width: 100%;
 }
 
 .box__smaller--text {
-    padding-left: 2.1875rem;
+    width: 100%;
 }
 .box__row--hdl {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 2.25rem;
     color: var(--primary-black-color);
-
-
 }
 
 .box__row--lead {
@@ -254,8 +241,6 @@ html, body {
     font-weight: 400;
     font-size: 1rem;
     text-align: left;
-
-
 }
 
 
