@@ -71,7 +71,6 @@ html, body {
     display: flex;
     text-align: center;
     white-space: nowrap;
-    /*max-width: 25.75rem;*/
     justify-content: flex-end;
     gap: 4rem;
 }
@@ -89,7 +88,6 @@ html, body {
     padding-inline: 0.75rem;
     padding-top: 1.71875rem;
     padding-bottom: 1.71875rem;
-    /*min-width: 8rem;*/
 }
 
 .menu .menu__item:hover {
@@ -98,25 +96,24 @@ html, body {
 }
 
 /*  INTRO */
-
 .intro {
-    /*background-image: url(../assets/Background.png);*/
-    /*background-size: cover;*/
-    /*background-position: bottom;*/
-    height: 100vh;
-
+    height:52.625rem;
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
-
-.intro .intro__bg {
+.intro__bg {
+    display: flex;
+    justify-content: center;
 
 }
 
 .intro .intro__box {
+    padding-top: 8.125rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
     text-align: center;
 }
 
@@ -126,7 +123,6 @@ html, body {
     font-size: 3.0625rem;
     color: var(--primary-black-color);
     line-height: 0.5rem;
-    margin-top: 8.125rem;
 }
 
 .intro__lead {
@@ -156,7 +152,7 @@ html, body {
     flex-direction: column;
     margin-bottom: 7.5625rem;
     background-color: var(--basic-white-color);
-    padding-top: 6.25rem;
+
 }
 
 .box__hdl {
@@ -175,7 +171,7 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10.28rem;
+    gap: 12rem;
 }
 
 .box__col--inner {
@@ -369,11 +365,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     padding: 0;
-    /*height: 11.75rem;*/
-    /*padding-top: 5.5875rem;*/
-    /*padding-bottom: 5.5875rem;*/
     padding-left: 2.1875rem;
-    /*padding-right: 5rem;*/
 }
 
 .articles__hdl {
@@ -392,8 +384,6 @@ html, body {
     text-align: left;
     margin: 0;
     padding-top: 1.875rem;
-    /*width: 26rem;*/
-    /*height: 4.125rem;*/
     position: relative;
 }
 
@@ -436,7 +426,6 @@ html, body {
     align-items: center;
     width: 79.125rem;
     padding-top: 6.25rem;
-    /*padding-inline: 11.25rem;*/
 }
 
 .pricing__hdl {
@@ -495,7 +484,6 @@ html, body {
 .col__span {
     display: block;
     font-size: 2.875rem;
-    /*line-height: 2;*/
     font-weight: 400;
     padding-bottom: 0.3125rem;
 }
@@ -546,13 +534,11 @@ padding-bottom: 1.25rem;
     background-image: url("../assets/Close.svg");
 }
 .col__btn {
-    /*padding-top: 3.1875rem;*/
     position: absolute;
     bottom:0;
     left:11.625rem;
     transform: translate(-50%, 50%);
     font-size: 0.8125rem;
-    /*line-height: 2.5625;*/
     text-decoration: none;
     font-weight: 700;
     padding: 1rem 3.5625rem;
@@ -696,6 +682,8 @@ padding-bottom: 1.25rem;
     align-self: flex-end;
     padding-inline: 6.0625rem;
 }
+
+/*SECTION FOOTER*/
 
 .footer {
     background-color: var(--bg_articles_footer-grey-color);

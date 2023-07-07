@@ -95,7 +95,15 @@ html, body {
 }
 
 .intro {
-  height: 100vh;
+  background-image: url("Background.c0050320.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 52.625rem;
+}
+
+.intro__bg {
+  justify-content: center;
+  display: flex;
 }
 
 .intro .intro__box {
@@ -103,13 +111,12 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  padding-top: 8.125rem;
   display: flex;
 }
 
 .intro__hdl {
   color: var(--primary-black-color);
-  margin-top: 8.125rem;
   font-family: Raleway, sans-serif;
   font-size: 3.0625rem;
   font-weight: 400;
@@ -131,7 +138,6 @@ html, body {
   justify-content: center;
   align-items: center;
   margin-bottom: 7.5625rem;
-  padding-top: 6.25rem;
   display: flex;
 }
 
@@ -150,7 +156,7 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10.28rem;
+  gap: 12rem;
   display: flex;
 }
 
