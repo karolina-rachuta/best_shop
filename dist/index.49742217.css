@@ -642,6 +642,7 @@ html, body {
 .contact-form__group {
   cursor: pointer;
   align-items: flex-start;
+  gap: .5rem;
   display: flex;
 }
 

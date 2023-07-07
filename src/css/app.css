@@ -671,11 +671,11 @@ padding-bottom: 1.25rem;
     display: flex;
     /*gap: 0.625rem;*/
     align-items: flex-start;
+    gap: 0.5rem;
 }
 .contact-form__checkbox {
     order: -10;
     align-self: flex-start;
-
 }
 
 .contact-form .btn{
