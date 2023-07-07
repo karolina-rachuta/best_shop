@@ -141,7 +141,7 @@ html, body {
 .intro__img {
 }
 
-/* SECTION 1 - ARTICLES*/
+/* SECTION 1 - BENEFITS*/
 .box {
 }
 
@@ -240,6 +240,7 @@ html, body {
     text-align: center;
 }
 
+/*SECTION 2 ARTICLES*/
 .articles {
     /*padding: 5.8333rem 15.6875rem;*/
     background-color: var(--bg_articles_footer-grey-color);
@@ -558,7 +559,7 @@ padding-bottom: 1.25rem;
 }
 
 
-/* SECTION FORM*/
+/* SECTION CONTACTS*/
 .from {
 }
 

@@ -1,0 +1,45 @@
+/*  INTRO */
+.intro {
+  height:52.625rem;
+  background-image: url(../assets/Background.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.intro__bg {
+  display: flex;
+  justify-content: center;
+
+}
+
+.intro .intro__box {
+  padding-top: 8.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro__hdl {
+  font-family: $font-raleway;
+  font-weight: 400;
+  font-size: 3.0625rem;
+  color: $primary-black-color;
+  line-height: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.intro__lead {
+  font-size: 1rem;
+  line-height: 0.5rem;
+  color: $primary-black-color;
+  margin-top: 1.25rem;
+  margin-bottom: 2.375rem;
+}
+
+.intro__btn {
+}
+
+
+.intro__img {
+}

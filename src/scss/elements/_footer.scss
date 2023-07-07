@@ -1,0 +1,47 @@
+
+/*SECTION FOOTER*/
+
+.footer {
+  background-color: $bg_articles_footer-grey-color;
+  box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.16);
+  height: 5.626rem;
+}
+.container__footer {
+  height: 100%;
+}
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.logo__footer {}
+.footer .logo {
+  font-weight: 300;
+  font-size: 1.625rem;
+  line-height: 1.1538;
+}
+.footer__rights {
+  font-weight: 400;
+  color: $tertiary-grey-color;
+  font-family: Open Sans, sans-serif;
+  font-size: 0.6875rem;
+  line-height: 1.3636;
+  margin-bottom: 0;
+}
+.footer__socials {
+  cursor: pointer;
+}
+.twitter {
+  background-image: url(../assets/Twitter.svg);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+.fb {
+  background-image: url(../assets/Facebook.svg);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+}

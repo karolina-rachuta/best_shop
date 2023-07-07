@@ -1,0 +1,150 @@
+/*PRICING SECTION*/
+
+.pricing {
+  background-color: $basic-white-color;
+}
+
+.container__pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 79.125rem;
+  padding-top: 6.25rem;
+}
+
+.pricing__hdl {
+  padding-bottom: 4.125rem;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 1.1667;
+
+}
+
+.pricing__row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3.625rem;
+}
+
+.pricing__col {
+  text-align: center;
+  width: 23.25rem;
+  height: 31rem;
+  border: 0.0625rem solid;
+  border-radius: 1.125rem;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  color: $primary-black-color;
+  position: relative;
+}
+.pricing__col--red {
+  border-color: $additional-red-color;
+}
+
+.pricing__col--blue {
+  border-color: $secondary-blue-color;
+  box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.16);
+  transform: scale(1.08);
+
+}
+
+.pricing__col--green {
+  border-color: $additional-green-color;
+}
+.col__hdl {
+  color: $pricing_subtitles-color;
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 2.125rem;
+  padding-bottom: 0.875rem;
+  line-height: 1;
+}
+
+.col__span {
+  display: block;
+  font-size: 2.875rem;
+  font-weight: 400;
+  padding-bottom: 0.3125rem;
+}
+
+.col__span--red {
+  color: $additional-red-color;
+}
+
+.col__span--blue {
+  color: $additional-blue-color;
+}
+
+.col__span--green {
+  color: $additional-green-color;
+}
+.col__limited {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  color: $pricing_subtitles-color;
+  padding-bottom: 3.8125rem;
+}
+
+.col__limited--empty {
+  padding-bottom: 4.3125rem;
+}
+
+.col__list {
+  font-size: 0.875rem;
+  color: $primary-black-color;
+  padding-bottom: 1.25rem;
+}
+.col__list::before {
+  content: "";
+  background-image: url("../assets/Ckechmark-1.svg");
+  width: 0.6875rem;
+  height: 0.6875rem;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.5rem;
+}
+
+.col__list--cross::before {
+  /*content: "";*/
+  background-image: url("../assets/Close.svg");
+}
+.col__btn {
+  position: absolute;
+  bottom:0;
+  left:11.625rem;
+  transform: translate(-50%, 50%);
+  font-size: 0.8125rem;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1rem 3.5625rem;
+  border-radius: 1.4374rem;
+  color: $basic-white-color;
+  background-color: $additional-red-color;
+  cursor: pointer;
+}
+
+.col__btn--blue {
+  background-color: $additional-blue-color;
+  box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+}
+
+.col__btn--green {
+  background-color: $additional-green-color;
+}

@@ -1,0 +1,49 @@
+//Plik _base.scss będzie odpowiadał ze wszystkie bazowe style naszego projektu:
+//
+//box-sizing
+//font dla body
+//linki
+//container
+//itp.
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-open-sans;
+}
+
+.container {
+  width: 100%;
+  max-width: 84.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-inline: auto;
+
+  @include notebook {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+//Dzięki temu nasz kontener będzie miał 100% szerokości i odpowiedni padding aż do szerokości 1352px ekranu.
+
+.btn {
+  color: $basic-white-color;
+  font-size: 1rem;
+  box-shadow: 0.3125rem 0.625rem 0.875rem rgba(7, 172, 230, 0.16);
+  border-radius: 2.5rem;
+  border: 0.0625rem solid $secondary-blue-color;
+  background-color: $secondary-blue-color;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 400ms;
+  line-height: 0.5;
+  padding: 1.375rem 9.8125rem;
+  display: inline-block;
+}
