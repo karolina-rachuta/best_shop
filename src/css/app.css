@@ -531,6 +531,18 @@ padding-bottom: 1.25rem;
 }
 .col__list::before {
     content: "";
+    background-image: url("../assets/Ckechmark-1.svg");
+    width: 0.6875rem;
+    height: 0.6875rem;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+}
+
+.col__list--cross::before {
+    /*content: "";*/
+    background-image: url("../assets/Close.svg");
 }
 .col__btn {
     /*padding-top: 3.1875rem;*/
@@ -541,10 +553,12 @@ padding-bottom: 1.25rem;
     font-size: 0.8125rem;
     /*line-height: 2.5625;*/
     text-decoration: none;
+    font-weight: 700;
     padding: 1rem 3.5625rem;
     border-radius: 1.4374rem;
     color: var(--basic-white-color);
     background-color: var(--additional-red-color);
+    cursor: pointer;
 }
 
 .col__btn--blue {

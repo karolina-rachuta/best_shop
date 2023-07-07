@@ -486,16 +486,29 @@ html, body {
   font-size: .875rem;
 }
 
-.col__list:after {
+.col__list:before {
   content: "";
+  background-image: url("Ckechmark-1.78835921.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: .6875rem;
+  height: .6875rem;
+  margin-right: .5rem;
+  display: inline-block;
+}
+
+.col__list--cross:before {
+  background-image: url("Close.90b12221.svg");
 }
 
 .col__btn {
   color: var(--basic-white-color);
   background-color: var(--additional-red-color);
+  cursor: pointer;
   border-radius: 1.4374rem;
   padding: 1rem 3.5625rem;
   font-size: .8125rem;
+  font-weight: 700;
   text-decoration: none;
   position: absolute;
   bottom: 0;
