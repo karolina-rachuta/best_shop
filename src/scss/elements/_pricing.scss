@@ -35,6 +35,9 @@
   width: 100%;
   justify-content: center;
   gap: 3.625rem;
+  //@include mobile {
+  //  flex-direction: column;
+  //}
 }
 
 .pricing__col {

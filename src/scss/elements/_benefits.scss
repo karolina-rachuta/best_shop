@@ -10,6 +10,9 @@
   flex-direction: column;
   margin-bottom: 7.5625rem;
   background-color: $basic-white-color;
+  @include mobile {
+    margin-bottom: 3.125rem;
+  }
 
 }
 
@@ -17,10 +20,16 @@
   color: $primary-black-color;
   font-family: "Raleway", sans-serif;
   font-size: 2.25rem;
-  line-height: 0.1875;
+  line-height: 1.1668;
   font-weight: 400;
   margin-top: 6.25rem;
   margin-bottom: 6.25rem;
+  text-align: center;
+  @include mobile {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.875rem;
+  }
 }
 
 .box__col {
@@ -30,6 +39,10 @@
   align-items: center;
   text-align: center;
   gap: 12rem;
+  @include mobile {
+    flex-direction: column;
+    gap: 1.5625rem;
+  }
 }
 
 .box__col--inner {
