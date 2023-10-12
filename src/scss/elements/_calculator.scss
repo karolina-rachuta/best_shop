@@ -15,6 +15,9 @@ $color-light-grey: #F7F7F7;
 
   h2 {
     text-align: center;
+    font-size: 36px;
+    font-family: Raleway, sans-serif;
+    color: #222222;
   }
 
   &__columns {
@@ -116,8 +119,20 @@ $color-light-grey: #F7F7F7;
   }
 
   .form__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+
+    input {
+      width: 24px;
+      height: 24px;
+    }
     .consent__text {
       padding-top: 4px;
+      font-family: Open Sans, sans-serif;
+      font-size: 12px;
+      color: #707070;
     }
   }
 
@@ -174,11 +189,13 @@ $color-light-grey: #F7F7F7;
       }
     }
   }
+
+  span {
+    padding-right: 50px;
+  }
 }
 
-span {
-  padding-right: 50px;
-}
+
 //.calc__summary ul {
 //  display: flex;
 //  justify-content: space-between;
